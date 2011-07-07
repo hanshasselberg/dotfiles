@@ -1,6 +1,0 @@
-Zsh configurations for colored prompt with Git branch name and auto-complete.
-
-== Setup
-
-  git clone git@github.com:martinjagusch/zsh_config.git ~/.zsh_config
-  ln -s ~/.zsh_config/zshrc ~/.zshrc
