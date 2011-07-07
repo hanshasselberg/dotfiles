@@ -1,0 +1,14 @@
+autoload -Uz vcs_info
+
+setopt PROMPT_SUBST
+
+precmd () {
+  vcs_info
+}
+chpwd () {
+  print -Pn "\e]0;%c\a"
+}
+
+zstyle ':vcs_info:*' formats ' %F{2}%b'
+
+PROMPT='%F{6}%c$vcs_info_msg_0_%f '

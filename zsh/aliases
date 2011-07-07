@@ -1,0 +1,8 @@
+autoload colors
+
+alias ls='ls -G'
+alias hg='history | grep '
+alias pg='ps -ef | grep '
+alias gitc=gitx
+alias rake='noglob bundle exec rake'
+alias cap='bundle exec cap'
